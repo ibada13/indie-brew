@@ -11,7 +11,7 @@ export default function NavBar() {
                 </Link>
             </div>
             <div className="flex-grow flex  p-2 justify-end items-center gap-x-4">
-                <Link href="" className="hover:text-vio transition-all duration-300 ">pricing</Link>
+                <Link href="" className="hover:text-vio transition-all duration-300 ">Pricing</Link>
                 <Link href="" className="hover:text-vio transition-all duration-300 ">Support</Link>
                 <Button />   
             </div>
