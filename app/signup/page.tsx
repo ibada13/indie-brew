@@ -1,7 +1,10 @@
+import NavBar from "./components/NavBar"
 export default function SignUp() { 
     return (
-        <div className="h-screen w-screen flex justify-center items-center">
-            <p className="text-black">login </p>
+        <div className=" w-screen flex flex-col items-center p-4 bg-wvio">
+            <NavBar/>
+
+
         </div>
     )
 }
