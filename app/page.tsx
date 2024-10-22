@@ -5,7 +5,7 @@ import Marketing from "./components/Marketing";
 import Footer from "./components/Footer";
 export default function Home() {
   return (
-    <div className="w-screen flex flex-col items-center custom-radial-gradient p-4 gap-y-5">
+    <div className="w-screen flex flex-col items-center  p-4 gap-y-6">
       <NavBar/>
       <Body />
       <Marketing/>

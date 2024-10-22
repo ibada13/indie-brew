@@ -3,7 +3,7 @@ import Image from "next/image";
 import HomeCard from "../lib/ui/Homecard";
 export default function Body() { 
     return (
-        <div className="flex-grow w-4/5  flex items-end justify-between p-2">
+        <div className="flex-grow h-screen w-4/5  flex items-end justify-between p-2">
             <div className="w-1/2 flex justify-center items-center  h-full" >
 
             <HomeCard />

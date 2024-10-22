@@ -8,7 +8,7 @@ const Footer = () => {
                 <p className="font-bold">IndieBrew</p>
                 <p className="font-light ">Lorem ipsum dolor, sit amet consectetur Lorem ipsum dolor sit amet. adipisicing elit. Quibusdam, dignissimos.</p>
                 </div>
-                <p className="text-nowrap font-semibold  p-2 text-sm">made with <GiThorHammer className="inline "/> in DZ</p>
+                <p className="text-nowrap font-semibold  p-2 text-sm pl-0">made with <GiThorHammer className="inline text-vio"/> in <span className="text-vio">DZ</span></p>
             </div>
             <div className="w-1/2 flex font-light">
                 <div className="flex flex-col items-center gap-y-2 flex-grow">
