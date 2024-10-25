@@ -4,7 +4,7 @@ import Link from "next/link";
 import { IoIosArrowBack } from "react-icons/io";
 const NavBar = () => {
     return (
-        <div className="flex p-2 w-4/5  items-ecnter ">
+        <div className="flex p-2 w-4/5  items-center ">
             <div className="flex-grow p-2">
                 <Image src={logo} alt="logo"/>
             </div>
