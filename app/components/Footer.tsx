@@ -10,18 +10,23 @@ const Footer = () => {
                 </div>
                 <p className="text-nowrap font-semibold  p-2 text-sm pl-0">made with <GiThorHammer className="inline text-vio"/> in <span className="text-vio">DZ</span></p>
             </div>
-            <div className="w-1/2 flex font-light">
+            <div className="w-1/2 flex flex-col md:flex-row font-light ">
+                <div className="flex ">
+
                 <div className="flex flex-col items-center gap-y-2 flex-grow">
                     <p className="font-bold">Sitemap</p>
                     <p>Homepage</p>
                     <p>Pricing</p>
                 </div>
+
                 <div className="flex flex-col items-center gap-y-2 flex-grow">
                     <p className="font-bold">Resoures</p>
                     <p>Support</p>
                     <p>Contact</p>
                     <p>FAQ</p>
                 </div>
+                </div>
+                <div className="flex">
                 <div className="flex flex-col items-center gap-y-2 flex-grow">
                     <p className="font-bold">Company</p>
                     <p>About</p>
@@ -33,6 +38,7 @@ const Footer = () => {
                     <p>HackerNews</p>
                     <p>Reddit</p>
                     <p>Twitter</p>
+                </div>
                 </div>
             </div>
         </div>
