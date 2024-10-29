@@ -30,7 +30,7 @@ export default function NavBar() {
             <div className="w-full text-center flex flex-col absolute top-full left-0 p-2 justify-between items-center gap-x-4 bg-white rounded-lg">
                 <Link href="" className="hover:text-vio transition-all duration-300 w-full ">Pricing</Link>
                 <Link href="" className="hover:text-vio transition-all duration-300 w-full ">Support</Link>
-                <Link href="" className="text-vio hover:text-black transition-all duration-300 w-full ">Get Started</Link>
+                <Link href="/signup" className="text-vio hover:text-black transition-all duration-300 w-full ">Get Started</Link>
 
                 </div>
             </>
