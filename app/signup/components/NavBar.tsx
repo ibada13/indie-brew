@@ -1,5 +1,5 @@
 import Image from "next/image";
-import logo from "@/app/LIB/assets/logo.svg"
+import logo from "@/app/lib/assets/logo.svg"
 import Link from "next/link";
 import { IoIosArrowBack } from "react-icons/io";
 const NavBar = () => {
