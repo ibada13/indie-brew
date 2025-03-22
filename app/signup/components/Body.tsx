@@ -1,4 +1,3 @@
-import Button from "@/app/lib/ui/button";
 const Body = () => { 
     return (
         <div className="flex w-4/5 flex-col md:flex-row gap-y-12 md:gap-y-0 items-center justify-between gap-x-0 md:gap-x-12 p-4 bg-wvio">

@@ -1,7 +1,7 @@
 import { GiThorHammer } from "react-icons/gi";
 const Footer = () => { 
     return (
-        <div className="h-[30vh] w-4/5 p-2 bg-[#fdfcf9] text-xs flex flex-col sm:flex-row gap-y-8">
+        <div className="h-[30vh] w-4/5 p-2   bg-[#fdfcf9] text-xs flex flex-col sm:flex-row gap-y-8">
             <div className="w-full sm:w-1/2 h-full flex flex-col justify-between items-start" >
                 <div className=" sm:w-2/3 flex  flex-col  gap-y-2">
                     
@@ -10,7 +10,7 @@ const Footer = () => {
                 </div>
                 <p className="text-nowrap font-semibold  p-2 text-sm pl-0">made with <GiThorHammer className="inline text-vio"/> in <span className="text-vio">DZ</span></p>
             </div>
-            <div className="w-full sm:w-1/2 flex flex-col md:flex-row font-light ">
+            <div className="w-full sm:w-1/2 pb-4 flex flex-col items-center justify-end md:flex-row font-light ">
                 <div className="flex ">
 
                 <div className="flex flex-col items-center gap-y-2 flex-grow">

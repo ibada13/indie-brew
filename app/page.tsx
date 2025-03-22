@@ -1,4 +1,4 @@
-import Image from "next/image";
+
 import NavBar from "./components/NavBar";
 import Body from "./components/Body";
 import Marketing from "./components/Marketing";

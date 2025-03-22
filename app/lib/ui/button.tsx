@@ -4,7 +4,7 @@ const Button = () => {
         <Link href="/signup" className="flex justify-center items-center p-3 bg-vio text-white rounded-md w-1/2   ">
             
             <p className="font-semibold">Get Started-</p>
-            <p>it's free</p>
+            <p>it`&apos;`s free</p>
         </Link>
     )
 }
